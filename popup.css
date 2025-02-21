@@ -1,0 +1,35 @@
+body {
+    width: 300px;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #paramList {
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  #paramList li {
+    list-style: none;
+  }
+  
+  button {
+    margin: 5px 0;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
